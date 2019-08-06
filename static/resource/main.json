@@ -1,0 +1,564 @@
+[
+	{
+		"tag": [
+			"CSS",
+			"HTML5"
+		],
+		"category": [
+			"Web前端资料",
+			"综合总结，知识点"
+		],
+		"json": [
+			{
+				"tag": "h2",
+				"attrs": [
+					{
+						"name": "id",
+						"value": "能用-HTML-CSS-解决的问题就不要用-JS"
+					}
+				],
+				"children": [
+					"可以使用 HTML/CSS 解决的问题就不要用 JS"
+				]
+			},
+			{
+				"tag": "h3",
+				"attrs": [
+					{
+						"name": "id",
+						"value": "导航高亮"
+					}
+				],
+				"children": [
+					"导航高亮"
+				]
+			},
+			{
+				"tag": "p",
+				"children": [
+					"可以用 class 来标识菜单是否选中，选中的 class 增加特殊样式，:hover 选择器可以用来表示鼠标悬浮的样式  ",
+					{
+						"tag": "br"
+					}
+				]
+			},
+			{
+				"tag": "h3",
+				"attrs": [
+					{
+						"name": "id",
+						"value": "鼠标悬浮时显示"
+					}
+				],
+				"children": [
+					"鼠标悬浮时显示"
+				]
+			},
+			{
+				"tag": "p",
+				"children": [
+					{
+						"tag": "span",
+						"attrs": [
+							{
+								"[name]": "style",
+								"[value]": "font-weight: normal;"
+							}
+						]
+					},
+					"使用 :hover 选择器实现"
+				]
+			},
+			{
+				"tag": "h3",
+				"attrs": [
+					{
+						"name": "id",
+						"value": "自定义-radio-checkbox-的样式"
+					}
+				],
+				"children": [
+					"自定义 radio/checkbox 的样式"
+				]
+			},
+			{
+				"tag": "p",
+				"children": [
+					"input 始终隐藏，通过设置 span.checkbox 的样式来实现自定义样式，通过 :checked 伪类更改选中状态的样式",
+					{
+						"tag": "br"
+					}
+				]
+			},
+			{
+				"tag": "figure",
+				"children": [
+					{
+						"tag": "div"
+					},
+					{
+						"tag": "pre",
+						"children": [
+							{
+								"[tag]": "code",
+								"[children][]": [
+									"&lt;style&gt;",
+									"    input[type=checkbox]{",
+									"    display: none;",
+									"    }",
+									"    /* 未选中的 checkbox 的样式 */",
+									"    .checkbox{",
+									"        /* 具体实现 */",
+									"    }",
+									"    input[type=checkbox]:checked + .checkbox{",
+									"        /* 具体实现 */",
+									"    }",
+									"&lt;/style&gt;",
+									"&lt;label&gt;",
+									"    &lt;input type=&quot;checkbox&quot;&gt;",
+									"    &lt;span class=&quot;checkbox&quot;&gt;&lt;/span&gt;",
+									"&lt;/label&gt;"
+								],
+								"[children][1][tag]": "br",
+								"[children][3][tag]": "br",
+								"[children][5][tag]": "br",
+								"[children][7][tag]": "br",
+								"[children][9][tag]": "br",
+								"[children][11][tag]": "br",
+								"[children][13][tag]": "br",
+								"[children][15][tag]": "br",
+								"[children][17][tag]": "br",
+								"[children][19][tag]": "br",
+								"[children][21][tag]": "br",
+								"[children][23][tag]": "br",
+								"[children][25][tag]": "br",
+								"[children][27][tag]": "br",
+								"[children][29][tag]": "br"
+							}
+						]
+					},
+					{
+						"tag": "h3",
+						"attrs": [
+							{
+								"[name]": "id",
+								"[value]": "多列等高"
+							}
+						],
+						"children": [
+							"多列等高"
+						]
+					},
+					{
+						"tag": "ol",
+						"children": [
+							{
+								"[tag]": "li",
+								"[children][]": [
+									"借助 margin/padding 实现。",
+									"通过设置很大的 padding 值，使得高度变的很大，不可取。 "
+								],
+								"[children][1][tag]": "br"
+							},
+							{
+								"[tag]": "li",
+								"[children][]": [
+									"借助 table 自适应特性",
+									"代码如下："
+								],
+								"[children][1][tag]": "br",
+								"[children][3][tag]": "br",
+								"[children][4][tag]": "pre",
+								"[children][4][children][0][tag]": "code",
+								"[children][4][children][0][children][]": [
+									"&lt;style&gt;",
+									"    input[type=checkbox]{",
+									"    display: none;",
+									"    }",
+									"    /* 未选中的 checkbox 的样式 */",
+									"    .checkbox{",
+									"        /* 具体实现 */",
+									"    }",
+									"    input[type=checkbox]:checked + .checkbox{",
+									"        /* 具体实现 */",
+									"    }",
+									"&lt;/style&gt;",
+									"&lt;label&gt;",
+									"    &lt;input type=&quot;checkbox&quot;&gt;",
+									"    &lt;span class=&quot;checkbox&quot;&gt;&lt;/span&gt;",
+									"&lt;/label&gt;"
+								],
+								"[children][4][children][0][children][1][tag]": "br",
+								"[children][4][children][0][children][3][tag]": "br",
+								"[children][4][children][0][children][5][tag]": "br",
+								"[children][4][children][0][children][7][tag]": "br",
+								"[children][4][children][0][children][9][tag]": "br",
+								"[children][4][children][0][children][11][tag]": "br",
+								"[children][4][children][0][children][13][tag]": "br",
+								"[children][4][children][0][children][15][tag]": "br",
+								"[children][4][children][0][children][17][tag]": "br",
+								"[children][4][children][0][children][19][tag]": "br",
+								"[children][4][children][0][children][21][tag]": "br",
+								"[children][4][children][0][children][23][tag]": "br",
+								"[children][4][children][0][children][25][tag]": "br",
+								"[children][4][children][0][children][27][tag]": "br",
+								"[children][4][children][0][children][29][tag]": "br"
+							}
+						]
+					},
+					{
+						"tag": "p"
+					}
+				]
+			}
+		],
+		"_id": "5cadbbf8eeaa7512146738de",
+		"title": "HTML、CSS优化",
+		"content": "<h2 id=\"能用-HTML-CSS-解决的问题就不要用-JS\">可以使用 HTML/CSS 解决的问题就不要用 JS</h2><h3 id=\"导航高亮\">导航高亮</h3><p>可以用 class 来标识菜单是否选中，选中的 class 增加特殊样式，:hover 选择器可以用来表示鼠标悬浮的样式&nbsp;&nbsp;<br></p><h3 id=\"鼠标悬浮时显示\">鼠标悬浮时显示</h3><p><span style=\"font-weight: normal;\"></span>使用 :hover 选择器实现</p><h3 id=\"自定义-radio-checkbox-的样式\">自定义 radio/checkbox 的样式</h3><p>input 始终隐藏，通过设置 span.checkbox 的样式来实现自定义样式，通过 :checked 伪类更改选中状态的样式<br></p><figure><div></div><pre><code>&lt;style&gt;<br>    input[type=checkbox]{<br>    display: none;<br>    }<br>    /* 未选中的 checkbox 的样式 */<br>    .checkbox{<br>        /* 具体实现 */<br>    }<br>    input[type=checkbox]:checked + .checkbox{<br>        /* 具体实现 */<br>    }<br>&lt;/style&gt;<br>&lt;label&gt;<br>    &lt;input type=\"checkbox\"&gt;<br>    &lt;span class=\"checkbox\"&gt;&lt;/span&gt;<br>&lt;/label&gt;</code></pre><h3 id=\"多列等高\">多列等高</h3><ol><li>借助 margin/padding 实现。<br>通过设置很大的 padding 值，使得高度变的很大，不可取。&nbsp;</li><li>借助 table 自适应特性<br>代码如下：<br><pre><code>&lt;style&gt;<br>    input[type=checkbox]{<br>    display: none;<br>    }<br>    /* 未选中的 checkbox 的样式 */<br>    .checkbox{<br>        /* 具体实现 */<br>    }<br>    input[type=checkbox]:checked + .checkbox{<br>        /* 具体实现 */<br>    }<br>&lt;/style&gt;<br>&lt;label&gt;<br>    &lt;input type=\"checkbox\"&gt;<br>    &lt;span class=\"checkbox\"&gt;&lt;/span&gt;<br>&lt;/label&gt;</code></pre></li></ol><p></p></figure>",
+		"createdAt": "2019-04-10T09:48:40.381Z",
+		"updatedAt": "2019-04-12T03:14:16.491Z",
+		"__v": 0
+	},
+	{
+		"tag": [
+			"CSS",
+			"JavaScript"
+		],
+		"category": [
+			"Web前端资料",
+			"JavaScript"
+		],
+		"json": [
+			{
+				"tag": "h2",
+				"children": [
+					"scrollIntoView用法"
+				]
+			},
+			{
+				"tag": "blockquote",
+				"children": [
+					"scrollIntoView方法是将调用它的元素滚动到浏览器窗口（容器）的可见区域。"
+				]
+			},
+			{
+				"tag": "p",
+				"children": [
+					"它可以接收两种形式的参数：布尔值或对象。默认参数为 ",
+					{
+						"tag": "code",
+						"children": [
+							"true"
+						]
+					}
+				]
+			},
+			{
+				"tag": "h3",
+				"children": [
+					"布尔参数"
+				]
+			},
+			{
+				"tag": "ul",
+				"children": [
+					{
+						"tag": "li",
+						"children": [
+							{
+								"[tag]": "p",
+								"[children][]": [
+									"参数为true时调用该函数，页面（或容器）发生滚动，使element的顶部与视图（容器）顶部对齐",
+									"对应于对象参数："
+								],
+								"[children][1][tag]": "br",
+								"[children][3][tag]": "br"
+							},
+							{
+								"[tag]": "pre",
+								"[children][0][tag]": "code",
+								"[children][0][children][]": [
+									"{ ",
+									"    block: &quot;start&quot;, ",
+									"    inline: &quot;nearest&quot; ",
+									"}"
+								],
+								"[children][0][children][1][tag]": "br",
+								"[children][0][children][3][tag]": "br",
+								"[children][0][children][5][tag]": "br"
+							}
+						]
+					},
+					{
+						"tag": "li",
+						"children": [
+							{
+								"[tag]": "p",
+								"[children][]": [
+									"参数为false时，页面（或容器）发生滚动，使element的底部与视图（容器）底部对齐；",
+									"对应于对象参数：  "
+								],
+								"[children][1][tag]": "br",
+								"[children][3][tag]": "br"
+							},
+							{
+								"[tag]": "pre",
+								"[children][0][tag]": "code",
+								"[children][0][children][]": [
+									"{ ",
+									"    block: &quot;end&quot;, ",
+									"    inline: &quot;nearest&quot; ",
+									"}"
+								],
+								"[children][0][children][1][tag]": "br",
+								"[children][0][children][3][tag]": "br",
+								"[children][0][children][5][tag]": "br"
+							}
+						]
+					}
+				]
+			},
+			{
+				"tag": "h3",
+				"children": [
+					"对象参数"
+				]
+			},
+			{
+				"tag": "pre",
+				"children": [
+					{
+						"tag": "code",
+						"children": [
+							"{",
+							"      behavior: &quot;auto&quot; | &quot;smooth&quot;, // 默认 auto",
+							"      block: &quot;start&quot; | &quot;center&quot; | &quot;end&quot; | &quot;nearest&quot;, // 默认 center",
+							"      inline: &quot;start&quot; | &quot;center&quot; | &quot;end&quot; | &quot;nearest&quot;, // 默认 nearest",
+							"}",
+							{
+								"[tag]": [
+									"br",
+									"br"
+								]
+							},
+							{
+								"[tag]": "br"
+							},
+							{
+								"[tag]": "br"
+							}
+						]
+					}
+				]
+			},
+			{
+				"tag": "p",
+				"children": [
+					{
+						"tag": "divcourier",
+						"attrs": [
+							{
+								"[name]": "new',",
+								"[value]": ""
+							},
+							{
+								"[name]": "monospace;font-weight:",
+								"[value]": ""
+							},
+							{
+								"[name]": "normal;font-size:",
+								"[value]": ""
+							},
+							{
+								"[name]": "20px;line-height:",
+								"[value]": ""
+							},
+							{
+								"[name]": "27px;white-space:",
+								"[value]": ""
+							},
+							{
+								"[name]": "pre;\"",
+								"[value]": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"tag": "div",
+				"children": [
+					{
+						"tag": "span",
+						"children": [
+							"对象有三个属性："
+						]
+					}
+				]
+			},
+			{
+				"tag": "ul",
+				"children": [
+					{
+						"tag": "li",
+						"children": [
+							{
+								"[tag]": "p",
+								"[children][]": "behavior定义过渡的动画效果。auto使用默认的scroll-behavior样式， smooth 进行平滑滚动。"
+							}
+						]
+					},
+					{
+						"tag": "li",
+						"children": [
+							{
+								"[tag]": "p",
+								"[children][]": "block 定义垂直方向上对齐方式的。 start 表示将视口的顶部和元素顶部对齐；center 表示将视口的中间和元素的中间对齐；end 表示将视口的底部和元素底部对齐；nearest 表示就近对齐。"
+							}
+						]
+					},
+					{
+						"tag": "li",
+						"children": [
+							{
+								"[tag]": "p",
+								"[children][]": "inline定义水平方向上对齐方式。 其值与 block 类似。"
+							}
+						]
+					}
+				]
+			},
+			{
+				"tag": "h2",
+				"children": [
+					"scroll-behivor"
+				]
+			},
+			{
+				"tag": "p",
+				"children": {
+					"0": "这个 CSS 属性就只接受两个自定义值：",
+					"1": " 和 ",
+					"2": "。默认值为 ",
+					"3": "，表示立刻滚到底；",
+					"4": " 即表示平滑滚动。这个属性会影响滚动函数 ",
+					"5": "、",
+					"6": " 等的默认滚动行为，也会影响 ",
+					"7": "、",
+					"8": " 等 DOM 属性改变时的滚动行为。如果 ",
+					"9": " 被设置在根元素（&lt;html&gt;）上，表示应用在视口（viewport）上。所以只要给 html 或element元素设置样式 ",
+					"10": " 点击内链就会触发页面的平滑滚动。",
+					"11": {
+						"tag": [
+							"code",
+							"code"
+						],
+						"children": [
+							"scrollIntoView"
+						]
+					},
+					"12": {
+						"children": [
+							"auto"
+						]
+					},
+					"13": {
+						"tag": [
+							"code",
+							"code"
+						],
+						"children": [
+							"scrollTop"
+						]
+					},
+					"14": {
+						"children": [
+							"smooth"
+						]
+					},
+					"15": {
+						"tag": [
+							"code",
+							"code"
+						],
+						"children": [
+							"scrollLeft"
+						]
+					},
+					"16": {
+						"children": [
+							"auto"
+						]
+					},
+					"17": {
+						"tag": [
+							"code",
+							"code"
+						],
+						"children": [
+							"scroll-behavior"
+						]
+					},
+					"18": {
+						"children": [
+							"smooth"
+						]
+					},
+					"19": {
+						"tag": [
+							"code",
+							"code"
+						],
+						"children": [
+							"scroll-behavior: smooth"
+						]
+					},
+					"20": {
+						"children": [
+							"scrollTo"
+						]
+					},
+					"21": {
+						"tag": "br"
+					}
+				}
+			},
+			{
+				"tag": "blockquote",
+				"children": [
+					"注意：",
+					" 元素 ",
+					" ",
+					"上指定的此属性",
+					"传播到视口",
+					{
+						"tag": [
+							"code",
+							"span"
+						],
+						"attrs": [
+							{
+								"[name]": "style",
+								"[value]": "font-style: italic;"
+							}
+						],
+						"children": [
+							"不会"
+						]
+					},
+					{
+						"children": [
+							"body"
+						]
+					}
+				]
+			}
+		],
+		"_id": "5cb53d1b1acfa7494c674815",
+		"title": "scrollIntoView动画效果",
+		"content": "<h2>scrollIntoView用法</h2><blockquote>scrollIntoView方法是将调用它的元素滚动到浏览器窗口（容器）的可见区域。</blockquote><p>它可以接收两种形式的参数：布尔值或对象。默认参数为 <code>true</code></p><h3>布尔参数</h3><ul><li><p>参数为true时调用该函数，页面（或容器）发生滚动，使element的顶部与视图（容器）顶部对齐<br>对应于对象参数：<br></p><pre><code>{ <br>    block: \"start\", <br>    inline: \"nearest\" <br>}</code></pre></li><li><p>参数为false时，页面（或容器）发生滚动，使element的底部与视图（容器）底部对齐；<br>对应于对象参数：&nbsp;&nbsp;<br></p><pre><code>{ <br>    block: \"end\", <br>    inline: \"nearest\" <br>}</code></pre></li></ul><h3>对象参数</h3><pre><code>{<br>      behavior: \"auto\" | \"smooth\", // 默认 auto<br>      block: \"start\" | \"center\" | \"end\" | \"nearest\", // 默认 center<br>      inline: \"start\" | \"center\" | \"end\" | \"nearest\", // 默认 nearest<br>}</code></pre><p><divcourier new',=\"\" monospace;font-weight:=\"\" normal;font-size:=\"\" 20px;line-height:=\"\" 27px;white-space:=\"\" pre;\"=\"\"></divcourier></p><div><span>对象有三个属性：</span></div><ul><li><p>behavior定义过渡的动画效果。auto使用默认的scroll-behavior样式， smooth 进行平滑滚动。</p></li><li><p>block 定义垂直方向上对齐方式的。 start 表示将视口的顶部和元素顶部对齐；center 表示将视口的中间和元素的中间对齐；end 表示将视口的底部和元素底部对齐；nearest 表示就近对齐。</p></li><li><p>inline定义水平方向上对齐方式。 其值与 block 类似。</p></li></ul><h2>scroll-behivor</h2><p>这个 CSS 属性就只接受两个自定义值：<code>auto</code>&nbsp;和&nbsp;<code>smooth</code>。默认值为&nbsp;<code>auto</code>，表示立刻滚到底；<code>smooth</code>&nbsp;即表示平滑滚动。这个属性会影响滚动函数&nbsp;<code>scrollTo</code>、<code>scrollIntoView</code>&nbsp;等的默认滚动行为，也会影响&nbsp;<code>scrollTop</code>、<code>scrollLeft</code>&nbsp;等 DOM 属性改变时的滚动行为。如果&nbsp;<code>scroll-behavior</code>&nbsp;被设置在根元素（&lt;html&gt;）上，表示应用在视口（viewport）上。所以只要给 html 或element元素设置样式&nbsp;<code>scroll-behavior: smooth</code>&nbsp;点击内链就会触发页面的平滑滚动。<br></p><blockquote>注意：<code>body</code>&nbsp;元素&nbsp;&nbsp;上指定的此属性<span style=\"font-style: italic;\">不会</span>传播到视口</blockquote>",
+		"createdAt": "2019-04-16T02:25:31.607Z",
+		"updatedAt": "2019-04-16T04:03:54.640Z",
+		"__v": 0
+	}
+]
